@@ -1,0 +1,56 @@
+{
+  "Tipo:Conexiones": {
+    "Tipo negocio: Empresas": {
+      "Plan: Prepago": {
+        "Movil": {
+          "Cantidad": 50,
+          "Cortes": [ 1, 2, 3, 4 ]
+        },
+        "Fijo": {
+          "Cantidad": 380,
+          "Cortes": [ 1, 5, 16, 20 ]
+        }
+      },
+      "Plan: Pospago": {
+        "Movil": {
+          "Cantidad": 777,
+          "Cortes": [ 1, 5, 8, 12, 16, 20, 26 ]
+        },
+        "Fijo": {
+          "Cantidad": 200,
+          "Cortes": [ 1, 5, 20, 26 ]
+        },
+        "Convergente": {
+          "Cantidad": 480,
+          "Cortes": [ 1, 12 ]
+        }
+      }
+    },
+    "Tipo negocio: Residencial": {
+      "Plan: Prepago": {
+        "Movil": {
+          "Cantidad": 2320,
+          "Cortes": [ 5, 8, 12 ]
+        },
+        "Fijo": {
+          "Cantidad": 218,
+          "Cortes": [ 5, 8, 12 ]
+        }
+      },
+      "Plan: Pospago": {
+        "Movil": {
+          "Cantidad": 30,
+          "Cortes": [ 1, 8, 26 ]
+        },
+        "Fijo": {
+          "Cantidad": 700,
+          "Cortes": [ 1, 5, 8, 12 ]
+        },
+        "Convergente": {
+          "Cantidad": 1084,
+          "Cortes": [ 5 ]
+        }
+      }
+    }
+  }
+}

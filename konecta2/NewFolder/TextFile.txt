@@ -1,0 +1,22 @@
+﻿Respuesta punto 2
+
+CREATE TABLE CLIENTES_REFERIDOS(
+	id INT NOT NULL AUTO_INCREMENT,
+    nombre NVARCHAR(100) NOT NULL,
+    tipo_documento NVARCHAR(10) NOT NULL,
+    numero_documento INT NOT NULL,
+    numero_telefonico INT NOT NULL,
+    correo_electronico NVARCHAR(100) NULL,
+    observaciones NVARCHAR(500) NULL,
+    fecha_registro DATETIME NOT NULL,
+    PRIMARY KEY(id)
+);
+
+INSERT INTO CLIENTES_REFERIDOS
+VALUES (nombre, tipo_documento, numero_documento, numero_telefonico, correo_electronico, observaciones, NOW())
+
+
+Respuesta punto 6
+
+se aplica unicamente a la clase principal de los controles aside
+
